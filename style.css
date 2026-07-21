@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+#cabecalho{
+    background-color: rgb(75, 104, 222);
+    color: white;
+    height: 80px;
+    text-align: left;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#formulario{
+    display: block;
+    margin: 200px;
+    text-align: center;
+    background-color: rgb(225, 226, 228);
+    width: 400px;
+    max-width: 400px;
+    height: 200px;
+    max-height: 768px;
+}
