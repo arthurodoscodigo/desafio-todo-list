@@ -9,25 +9,25 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <script src="script.js" defer></script>
-    <title>Lista de Tarefas</title>
-</head>
+        <title>Lista de Tarefas</title>
+    </head>
 
-<body>
-    <header id="cabecalho">
+    <body>
+        <header id="cabecalho">
         <h1 id="titulo1">TarefasOnline</h1>
     </header>
     <main>
         <div id="formulario">
             <h3>Cadastrar Tarefa</h3>
             <input type="text" id="tarefa">
-            <button id="cadastrar" onclick="function cadastroItem()">Cadastrar</button>
+            <button id="cadastrar">Cadastrar</button>
+            <ul id="listaTarefas" class="escondido">
+                
+            </ul>
         </div>
     </main>
-    <ul id="listaTarefa">
-
-    </ul>
-
+    
+    <script src="script.js"></script>
 </body>
 
 </html>
