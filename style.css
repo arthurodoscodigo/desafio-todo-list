@@ -20,9 +20,43 @@ main{
     display: block;
     margin: 200px;
     text-align: center;
-    background-color: rgb(225, 226, 228);
+    background-color: rgb(119, 144, 241);
     width: 400px;
     max-width: 400px;
-    height: 200px;
-    max-height: 768px;
+    min-height: 200px;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 10px 10px 30px rgb(36, 34, 34);
+
+}
+ul{
+    list-style: none;
+    margin-top: 50px;
+    background-color: rgb(254, 255, 255);
+    border-radius: 20px;
+    border: 2px, solid, black;
+    padding: 2px;
+}
+input{
+    width: 350px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+#cadastrar{
+    margin-top: 20px;
+    height:30px;
+    width: 150px;
+    background-color: rgb(194, 205, 228);
+    font-size: 15px;
+    border-radius: 5px;
+}
+.escondido{
+    display: none !important;
+}
+.concluida {
+    text-decoration: line-through; 
+    color: #888888;               
+    opacity: 0.6;                 
 }
